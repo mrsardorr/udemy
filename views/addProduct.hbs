@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row">
+        <form action="/products/create" method="POST">
+            <div class="input-field col s6" >
+                <input placeholder="Product" id="name" type="text" class="validate" name="name">
+                <label for="name">Name</label>
+            </div>
+            <div class="input-field col s6">
+                <input id="image" type="text" class="validate" name="image">
+                <label for="image">Image</label>
+            </div>
+            <div class="input-field col s6">
+                <input id="image" type="text" class="validate" name="price">
+                <label for="image">Price</label>
+            </div>
+
+            <div class="col s12" style="text-align: end;"> 
+                <button class="waves-effect waves-light btn" type="submit">Create product</button>
+            </div>
+        </form>
+    </div>
+</div>

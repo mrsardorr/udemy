@@ -1,0 +1,9 @@
+nav{
+  background-color: black;
+}
+
+.card-title{
+  color: white !important;
+  font-weight: 700 !important;
+  text-shadow: 2px 1px 10px black;
+}

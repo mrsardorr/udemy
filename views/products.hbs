@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="row">
+        {{#each products}}
+        <div class="col s6">
+            <div class="card" style="height: 580px;">
+                <div class="card-image">
+                    <img src={{image}}>
+                    <span class="card-title">{{name}}</span>
+                </div>
+                <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                        I am convenient because I require little markup to use effectively.</p>
+                    <h4>{{price}}$</h4>
+                </div>
+                <div class="card-action">
+                    <a href="/products/remove/{{id}}" class="waves-effect waves-light btn"
+                        style="background-color: rgb(20, 189, 26);">Add to card </a>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+
+        <div class="col s12" style="text-align: center;">
+            <a class="waves-effect waves-light btn" href="/products/create">Create product</a>
+        </div>
+    </div>
+</div>
